@@ -76,4 +76,9 @@ cd gitlab-flow-env-branches-with-tag
 git branch -a
 git checkout preprod
 git remote add upstream git@github.com:fabianlee/gitlab-flow-env-branches-with-tags.git
-git fetch upstream main ; git merge upstream/main
+
+# update branch
+git switch main; git pull -r upstream main; git push
+OR
+git fetch upstream preprod; git merge upstream/preprod; git push
+
