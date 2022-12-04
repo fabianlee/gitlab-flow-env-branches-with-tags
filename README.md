@@ -69,3 +69,11 @@ git tag tag-$branch $sha1 ; git push --tags
 git tag -d tag-$branch; git push origin :tag-$branch
 git tag tag-$branch $sha2 ; git push --tags
 
+
+# merge requests from other users, create personal fork with all branches preserved
+git clone git@github.com:anotheruser/gitlab-flow-env-branches-with-tags.git
+cd gitlab-flow-env-branches-with-tag
+git branch -a
+git checkout preprod
+git remote add upstream git@github.com:fabianlee/gitlab-flow-env-branches-with-tags.git
+git fetch upstream main ; git merge upstream/main
