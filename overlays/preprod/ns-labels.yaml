@@ -6,5 +6,5 @@ metadata:
   labels:
     env: preprod
     mod1: preprod653
-    mod2: TIME2022-12-03T21-55-47-0500
-    mod3: MR_from_other_user_1123_toprod
+    mod2: TIME2022-12-05T21-55-47-0500
+    mod3: MR_from_other_user_topreprod
