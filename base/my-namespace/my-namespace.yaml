@@ -5,3 +5,4 @@ metadata:
   name: my-namespace
   labels:
     foo: bar
+    another: two
