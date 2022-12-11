@@ -6,3 +6,4 @@ metadata:
   labels:
     foo: bar
     another: two
+    fordev: one
