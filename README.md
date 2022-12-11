@@ -42,6 +42,8 @@ git add $branch/*
 git commit -a -m "content only for $branch branch"; git push -u origin $branch
 git tag tag-$branch; git push --tags
 
+# git branch prod tag-prod; git push -u origin prod
+
 
 # move preprod tag
 branch=preprod
