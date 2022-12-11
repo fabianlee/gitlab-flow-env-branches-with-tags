@@ -42,6 +42,11 @@ git add $branch/*
 git commit -a -m "content only for $branch branch"; git push -u origin $branch
 git tag tag-$branch; git push --tags
 
+# create new branch and set upstream
+git branch prod3 tag-prod; git push -u origin prod3
+OR
+git branch prod4 tag-prod; git push --set-upstream origin prod4
+
 
 # move preprod tag
 branch=preprod
