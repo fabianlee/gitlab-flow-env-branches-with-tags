@@ -1,7 +1,0 @@
-
-resources:
-  - ../../base/my-namespace
-  - ../../base/my-configmap
-
-patchesStrategicMerge:
-  - ns-labels.yaml

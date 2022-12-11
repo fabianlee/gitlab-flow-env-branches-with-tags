@@ -82,3 +82,6 @@ git switch main; git pull -r upstream main; git push
 OR
 git fetch upstream preprod; git merge upstream/preprod; git push
 
+# update central repo
+branch=preprod
+git fetch origin $branch --tags --force; git merge origin/$branch
