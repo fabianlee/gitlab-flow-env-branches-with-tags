@@ -96,3 +96,4 @@ git fetch origin $branch --tags --force; git merge origin/$branch
 
 test
 inc
+inc2
